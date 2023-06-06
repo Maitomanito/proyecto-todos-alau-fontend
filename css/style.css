@@ -100,6 +100,19 @@ header .equalizer_header{
     top: 12%;
     right: 15%;
 }
+/* si funciona o PRUEBA */
+header.phone_header {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #E600FF;
+    border-radius: 10px;
+}
+
 
 header .phone_header{
     height: 75%;
@@ -170,3 +183,101 @@ header .phone_header{
     position: relative;
     bottom: 0px;
 }
+/* Srevisar */
+
+
+ul.productos {
+    width: 75%;
+    height: 30  0px;
+    margin: 80px 0px 0px 10%;
+    display: inline-flex;
+}
+.productos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+
+.productos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #E600FF;
+    border-radius: 10px;
+}
+
+.productos li:hover{
+    border-color:#c78c19;
+}
+
+.productos li:active{
+    border-color:#088c19;
+}
+
+.productos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.productos li:hover h2{
+    font-size: 33px;
+}
+
+.producto-descripcion{
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.315);
+}
+
+.producto-precio{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top:10px;
+    color:#E600FF;
+}
+
+
+/* Social buttons */
+.socials {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 1%;
+    bottom: 50%;
+  }
+   /* Social button ends */
+  .socicon {
+    width: 2rem;
+    height: 2rem;
+  }
+ /* Scroll to top button */
+.scroll-up {
+    position: fixed;
+    right: 0.5%;
+    bottom: 3%;
+    cursor: pointer;
+  }
+  
+.up-arrow {
+    width: 3rem;
+    height: 3rem;
+  }
+  /* Scroll to top button ends */
+  
+/* Footer section */
+footer {
+    background-color:#020917;
+    padding: 1.25rem;
+    text-align: center;
+    margin: 4rem 0 0;
+    color:#E600FF;
+  }
+
+
+
+
+  /* Footer section ends */
